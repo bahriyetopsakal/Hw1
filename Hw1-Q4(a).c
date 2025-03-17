@@ -19,11 +19,10 @@ int main(void)
     return 0;
 }
 
-    int computeHomeValue (int popularity,int size)
-   
+    int computeHomeValue (int popularity,int size) 
  {
  	int home_value;
  	home_value =(int)((pow(popularity,3) + pow(size,2)) * 10000);
  	return home_value;	
-	}   
+}   
     

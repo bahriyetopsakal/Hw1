@@ -15,11 +15,11 @@ int main(void)
     
     result = computeHomeValue (popularity, size);
    
-    printf("Home value is %d\n", result)
+    printf("Home value is %d\n", result);
     return 0;
 }
 
-    int computeHomeValue (int popularity,int size);
+    int computeHomeValue (int popularity,int size)
    
  {
  	int home_value;
